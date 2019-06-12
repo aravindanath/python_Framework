@@ -7,9 +7,11 @@ from selenium.webdriver import ActionChains
 from traceback import print_stack
 import time
 
-
+# Reusable methods
 
 class SeleniumDriver():
+
+    # Constructor
 
     def __init__(self,driver):
         self.driver = driver
@@ -163,3 +165,24 @@ class SeleniumDriver():
         except:
             print(" Cannot Mouse hover  on element " + locator + "locator type: " + locatorType)
             print_stack()
+
+    def scrollToElement(self,locator,locatorType="id"):
+        """
+
+        :param locator:
+        :param locatorType:
+        :return:
+        """
+        try:
+            element = self.getElement(locator,locatorType)
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            print(" Scroll to element " + locator + "locator type: " + locatorType)
+        except:
+            print(" Cannot scroll to element " + locator + "locator type: " + locatorType)
+            print_stack()
+
+    def assertTitle(self,pgTile,locator,locatorType):
+
+        titles= self.getElement(locator,locatorType)
+        result = titles.text
+        self.assertEqual(pgTile, result, "Title mis match")
