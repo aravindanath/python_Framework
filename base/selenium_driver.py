@@ -1,7 +1,9 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
+from selenium.webdriver import ActionChains
 from traceback import print_stack
 import time
 
@@ -59,11 +61,21 @@ class SeleniumDriver():
             print_stack()
 
 
-
     def sendKeys(self,data ,locator, locatorType="id"):
         try:
             element = self.getElement(locator, locatorType)
             element.send_keys(data)
+            print(" Send data  on element " + locator + "locator type: " + locatorType)
+        except:
+            print(" Cannot send data  on element " + locator + "locator type: " + locatorType)
+            print_stack()
+
+
+    def sendKeysWithEnter(self,data ,locator, locatorType="id"):
+        try:
+            element = self.getElement(locator, locatorType)
+            element.send_keys(data, Keys.ENTER)
+
             print(" Send data  on element " + locator + "locator type: " + locatorType)
         except:
             print(" Cannot send data  on element " + locator + "locator type: " + locatorType)
@@ -86,6 +98,19 @@ class SeleniumDriver():
             return False
 
 
+    def isElementPresent(self,locator,locatorType="id"):
+
+        try:
+            element = self.getElement(locator,locatorType)
+            if element is not None:
+                print("Element found")
+                return True
+            else:
+                print("Element not found")
+                return False
+        except:
+            print("Element not found")
+            return False
 
 
     def waitForElement(self,locator,locatorType="id",timeout=10,pollFreq=0.5):
@@ -108,7 +133,14 @@ class SeleniumDriver():
             print_stack()
         return element
 
+
+
     def take_Screenshot(self, driver):
+        """
+
+        :param driver:
+        :return:
+        """
         # fileName = str(round(time.time() * 1000)) + ".png"
         fileName = "snapShot.png"
         dir = "../screenshots/"
@@ -116,4 +148,18 @@ class SeleniumDriver():
 
 
 
+    def mouseHover(self,locator,locatorType="id"):
+        """
 
+        :param locator:
+        :param locatorType:
+        :return:
+        """
+        try:
+            element = self.getElement(locator, locatorType)
+            action = ActionChains(self.driver)
+            action.move_to_element(element).perform()
+            print(" Mouse hover on element " + locator + "locator type: " + locatorType)
+        except:
+            print(" Cannot Mouse hover  on element " + locator + "locator type: " + locatorType)
+            print_stack()
