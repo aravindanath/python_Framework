@@ -1,8 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 from traceback import print_stack
+import time
 
 
 
@@ -24,9 +25,9 @@ class SeleniumDriver():
                  return By.CLASS_NAME
             elif(loctorType == "css"):
                  return By.CSS_SELECTOR
-            elif(loctorType == "linktext"):
+            elif(loctorType == "link"):
                  return By.LINK_TEXT
-            elif(loctorType == "partiallinktext"):
+            elif(loctorType == "plink"):
                  return By.PARTIAL_LINK_TEXT
             else:
                 print("Locator Type " + loctorType + "not correct / supported!")
@@ -45,6 +46,9 @@ class SeleniumDriver():
             print("Element not found")
         return element
 
+
+
+
     def elementClick(self,locator,locatorType="id"):
         try:
             element = self.getElement(locator,locatorType)
@@ -53,6 +57,19 @@ class SeleniumDriver():
         except:
             print(" Cannot click  on element " + locator + "locator type: " + locatorType)
             print_stack()
+
+
+
+    def sendKeys(self,data ,locator, locatorType="id"):
+        try:
+            element = self.getElement(locator, locatorType)
+            element.send_keys(data)
+            print(" Send data  on element " + locator + "locator type: " + locatorType)
+        except:
+            print(" Cannot send data  on element " + locator + "locator type: " + locatorType)
+            print_stack()
+
+
 
     def elementPresentCheck(self,locator,byType):
 
@@ -69,6 +86,8 @@ class SeleniumDriver():
             return False
 
 
+
+
     def waitForElement(self,locator,locatorType="id",timeout=10,pollFreq=0.5):
         element = None
 
@@ -81,13 +100,20 @@ class SeleniumDriver():
                                  ignored_exceptions=[NoSuchElementException, ElementNotVisibleException,
                                                      ElementNotSelectableException])
 
-            element = wait.until(ec.element_to_be_clickable((byType, locator)))
+            element = wait.until(EC.element_to_be_clickable((byType, locator)))
 
             print("Element appered on the web page ")
         except:
             print("Element not appeared on the web page")
             print_stack()
         return element
+
+    def take_Screenshot(self, driver):
+        # fileName = str(round(time.time() * 1000)) + ".png"
+        fileName = "snapShot.png"
+        dir = "../screenshots/"
+        driver.save_screenshot(dir + fileName)
+
 
 
 
