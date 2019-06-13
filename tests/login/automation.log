@@ -1,0 +1,24 @@
+06/13/2019 06:36:16 AM - SeleniumDriver - INFO: Element found
+06/13/2019 06:36:17 AM - SeleniumDriver - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/13/2019 06:36:17 AM - SeleniumDriver - INFO: Element found
+06/13/2019 06:36:17 AM - SeleniumDriver - INFO:  Send data  on element ap_emaillocator type: id
+06/13/2019 06:36:17 AM - SeleniumDriver - INFO: Element found
+06/13/2019 06:36:19 AM - SeleniumDriver - INFO:  Clicked  on element continuelocator type: id
+06/13/2019 06:36:19 AM - SeleniumDriver - INFO: Element found
+06/13/2019 06:36:20 AM - SeleniumDriver - INFO:  Send data  on element ap_passwordlocator type: id
+06/13/2019 06:36:20 AM - SeleniumDriver - INFO: Element found
+06/13/2019 06:36:23 AM - SeleniumDriver - INFO:  Clicked  on element signInSubmitlocator type: id
+06/13/2019 06:36:25 AM - SeleniumDriver - INFO: Element found
+06/13/2019 06:36:28 AM - SeleniumDriver - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+06/13/2019 06:42:13 AM - LoginPage - INFO: Element found
+06/13/2019 06:42:14 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/13/2019 06:42:14 AM - LoginPage - INFO: Element found
+06/13/2019 06:42:14 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/13/2019 06:42:14 AM - LoginPage - INFO: Element found
+06/13/2019 06:42:20 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/13/2019 06:42:21 AM - LoginPage - INFO: Element found
+06/13/2019 06:42:22 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/13/2019 06:42:22 AM - LoginPage - INFO: Element found
+06/13/2019 06:42:25 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/13/2019 06:42:27 AM - LoginPage - INFO: Element found
+06/13/2019 06:42:29 AM - LoginPage - INFO:  Send data  on element twotabsearchtextboxlocator type: id

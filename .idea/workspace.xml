@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e54ed2-b1b9-48a9-8a1b-f9a69b2466ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/login/automation.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/logger_Utility.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day10/logger_Utility.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login/login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/login_tests.py" afterDir="false" />
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/.idea/PythonSeleniumProject.iml" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/.idea/PythonSeleniumProject.iml" afterDir="false" />
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day12/selenium.log" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day12/selenium.log" afterDir="false" />
@@ -14,6 +17,7 @@
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/FrameHandling.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/FrameHandling.py" afterDir="false" />
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo/conftest.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo/conftest.py" afterDir="false" />
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/LaunchBrowsers/openBrowser.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/LaunchBrowsers/openBrowser.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/appium_ios_android/launch_App.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/appium_ios_android/launch_App.py" afterDir="false" />
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/basicSyn/variable.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/basicSyn/variable.py" afterDir="false" />
       <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/output/htmlreport.html" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/output/htmlreport.html" afterDir="false" />
     </list>
@@ -28,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
+            <state relative-caret-position="2070">
+              <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -38,69 +42,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day16/assert.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day16/assertTitle.py">
+        <entry file="file://$PROJECT_DIR$/utilities/logger_Utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="120">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/Dummy3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/FrameHandling.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <entry file="file://$PROJECT_DIR$/tests/login/automation.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="300">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/login/login_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-              <folding>
-                <element signature="e#1#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/login/login_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="129">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -109,15 +75,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/home/home_page.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/Scroll.py">
+        <entry file="file://$PROJECT_DIR$/pages/login/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="71" />
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,9 +120,11 @@
         <option value="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo/conftest.py" />
         <option value="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo/test_class_demo.py" />
         <option value="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/FrameHandling.py" />
-        <option value="$PROJECT_DIR$/base/selenium_driver.py" />
         <option value="$PROJECT_DIR$/tests/login/login_tests.py" />
         <option value="$PROJECT_DIR$/pages/login/login_page.py" />
+        <option value="$PROJECT_DIR$/tests/conftest.py" />
+        <option value="$PROJECT_DIR$/base/selenium_driver.py" />
+        <option value="$PROJECT_DIR$/utilities/logger_Utility.py" />
       </list>
     </option>
   </component>
@@ -173,64 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonSeleniumProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonSeleniumProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Day14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonSeleniumProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Day16" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -256,13 +164,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonPOM_FW" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -271,15 +180,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../PythonPOM_FW" />
-      <recent name="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo" />
       <recent name="$PROJECT_DIR$/../PythonPOM_FW/base" />
       <recent name="$PROJECT_DIR$/../PythonPOM_FW/driver" />
       <recent name="$USER_HOME$/PycharmProjects/PythonSeleniumProject/FrameworkDoc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day10" />
+      <recent name="$PROJECT_DIR$/../PythonPOM_FW" />
+      <recent name="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.variable">
+  <component name="RunManager" selected="Python tests.pytest in login_tests.py (1)">
     <configuration name="variable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonSeleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,6 +260,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in login_tests.py (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonPOM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/login/login_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in login_tests.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonPOM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -383,6 +310,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in login_tests.py (1)" />
         <item itemvalue="Python tests.pytest in login_tests.py" />
         <item itemvalue="Python tests.pytest for login_tests.LoginTests.test_validLogin" />
         <item itemvalue="Python.variable" />
@@ -406,7 +334,8 @@
       <workItem from="1559607667294" duration="4884000" />
       <workItem from="1559666090722" duration="9162000" />
       <workItem from="1560295646761" duration="8824000" />
-      <workItem from="1560305946663" duration="1526000" />
+      <workItem from="1560305946663" duration="1827000" />
+      <workItem from="1560385907540" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="updated gitDemo with sucess msg.">
       <created>1559528173849</created>
@@ -478,16 +407,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560302704857</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update seleniumdriver methods and  login test case">
+      <created>1560307715294</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560307715294</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_login_tests_py_(1) - 2019.06.12 at 05h 46m 01s.xml">
-      <configuration name="pytest in login_tests.py (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_login_tests_py_(1) - 2019.06.12 at 05h 46m 48s.xml">
-      <configuration name="pytest in login_tests.py (1)" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_login_tests_py_(1) - 2019.06.12 at 05h 47m 12s.xml">
       <configuration name="pytest in login_tests.py (1)" configurationId="tests" />
     </history-entry>
@@ -512,14 +442,20 @@
     <history-entry file="pytest_in_login_tests_py_(1) - 2019.06.12 at 06h 22m 42s.xml">
       <configuration name="pytest in login_tests.py (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_login_tests_py_(1) - 2019.06.13 at 06h 36m 33s.xml">
+      <configuration name="pytest in login_tests.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_tests_py_(1) - 2019.06.13 at 06h 42m 35s.xml">
+      <configuration name="pytest in login_tests.py (1)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26418000" />
+    <option name="totallyTimeSpent" value="31664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928877" weight="0.17416546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.1777939" />
       <window_info id="Structure" order="1" sideWeight="0.50071126" side_tool="true" weight="0.17053701" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -533,7 +469,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5135135" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.51209104" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32859176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -541,29 +477,6 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.17416546" />
-      <window_info id="Structure" order="1" sideWeight="0.50071126" side_tool="true" weight="0.17053701" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31009957" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5135135" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32859176" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -578,11 +491,12 @@
     <MESSAGE value="update Login test" />
     <MESSAGE value="update Basic methods" />
     <MESSAGE value="update seleniumdriver methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="update seleniumdriver methods" />
+    <MESSAGE value="update seleniumdriver methods and  login test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="update seleniumdriver methods and  login test case" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonPOM$test_run_order.coverage" NAME="test_run_order Coverage Results" MODIFIED="1559613377174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo" />
-    <SUITE FILE_PATH="coverage/Simple_Pom_py_fw$pytest_in_login_tests_py__1_.coverage" NAME="pytest in login_tests.py (1) Coverage Results" MODIFIED="1560300732610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/login" />
+    <SUITE FILE_PATH="coverage/Simple_Pom_py_fw$pytest_in_login_tests_py__1_.coverage" NAME="pytest in login_tests.py (1) Coverage Results" MODIFIED="1560388324606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/login" />
     <SUITE FILE_PATH="coverage/PythonPOM$gitDemo.coverage" NAME="gitDemo Coverage Results" MODIFIED="1559527621864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyTest_Demo" />
     <SUITE FILE_PATH="coverage/PythonPOM$pytest_for_login_tests_LoginTests_test_validLogin.coverage" NAME="pytest for login_tests.LoginTests.test_validLogin Coverage Results" MODIFIED="1559694234824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonPOM_FW/tests/login" />
     <SUITE FILE_PATH="coverage/PythonPOM$pytest_in_login_tests_py.coverage" NAME="pytest in login_tests.py Coverage Results" MODIFIED="1559697805111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonPOM_FW/tests/login" />
@@ -792,29 +706,12 @@
     <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/FrameworkDoc/Structure.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/Scroll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/home_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day16/assert.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day16/assertTitle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="75">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -824,14 +721,14 @@
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/Dummy3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="540">
           <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/FrameHandling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="330">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -839,32 +736,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/home_page.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/Scroll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day11/logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day9/logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day10/logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day10/logger_Utility.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
+        <state relative-caret-position="2070">
+          <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/login/login_tests.py">
+    <entry file="file://$PROJECT_DIR$/pages/login/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login/login_page.py">
+    <entry file="file://$PROJECT_DIR$/tests/login/automation.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/logger_Utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <element signature="e#1#48#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/login/login_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>

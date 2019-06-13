@@ -5,11 +5,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 from selenium.webdriver import ActionChains
 from traceback import print_stack
+import utilities.logger_Utility as cl
+import logging
 import time
 
 # Reusable methods
 
 class SeleniumDriver():
+
+    log = cl.CustomLogger(logging.DEBUG)
 
     # Constructor
 
@@ -34,7 +38,8 @@ class SeleniumDriver():
             elif(loctorType == "plink"):
                  return By.PARTIAL_LINK_TEXT
             else:
-                print("Locator Type " + loctorType + "not correct / supported!")
+                self.log.info("Locator Type " + loctorType + "not correct / supported!")
+                # print("Locator Type " + loctorType + "not correct / supported!")
             return False
 
 
@@ -45,9 +50,9 @@ class SeleniumDriver():
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
             element = self.driver.find_element(byType,locator)
-            print("Element found")
+            self.log.info("Element found")
         except:
-            print("Element not found")
+            self.log.exception("Element not found")
         return element
 
 
@@ -57,9 +62,9 @@ class SeleniumDriver():
         try:
             element = self.getElement(locator,locatorType)
             element.click()
-            print(" Clicked  on element " + locator + "locator type: "+locatorType)
+            self.log.info(" Clicked  on element " + locator + "locator type: "+locatorType)
         except:
-            print(" Cannot click  on element " + locator + "locator type: " + locatorType)
+            self.log.exception(" Cannot click  on element " + locator + "locator type: " + locatorType)
             print_stack()
 
 
@@ -67,9 +72,9 @@ class SeleniumDriver():
         try:
             element = self.getElement(locator, locatorType)
             element.send_keys(data)
-            print(" Send data  on element " + locator + "locator type: " + locatorType)
+            self.log.info(" Send data  on element " + locator + "locator type: " + locatorType)
         except:
-            print(" Cannot send data  on element " + locator + "locator type: " + locatorType)
+            self.log.exception(" Cannot send data  on element " + locator + "locator type: " + locatorType)
             print_stack()
 
 
@@ -78,9 +83,9 @@ class SeleniumDriver():
             element = self.getElement(locator, locatorType)
             element.send_keys(data, Keys.ENTER)
 
-            print(" Send data  on element " + locator + "locator type: " + locatorType)
+            self.log.info(" Send data  on element " + locator + "locator type: " + locatorType)
         except:
-            print(" Cannot send data  on element " + locator + "locator type: " + locatorType)
+            self.log.exception(" Cannot send data  on element " + locator + "locator type: " + locatorType)
             print_stack()
 
 
@@ -90,13 +95,13 @@ class SeleniumDriver():
         try:
             elementlist = self.driver.find_elements(byType,locator)
             if(len(elementlist)>0):
-                print("Element found")
+                self.log.info("Element found")
                 return True
             else:
-                print("Element not found")
+                self.log.info("Element not found")
                 return False
         except:
-            print("Element not found")
+            self.log.exception("Element not found")
             return False
 
 
@@ -105,13 +110,13 @@ class SeleniumDriver():
         try:
             element = self.getElement(locator,locatorType)
             if element is not None:
-                print("Element found")
+                self.log.info("Element found")
                 return True
             else:
-                print("Element not found")
+                self.log.info("Element not found")
                 return False
         except:
-            print("Element not found")
+            self.log.exception("Element not found")
             return False
 
 
@@ -121,7 +126,7 @@ class SeleniumDriver():
         try:
 
             byType = self.getByType(locatorType)
-            print("waiting for maximum :: "+ str(timeout)+ ":: seconds for element to be clickable")
+            self.log.info("waiting for maximum :: "+ str(timeout)+ ":: seconds for element to be clickable")
 
             wait = WebDriverWait(self.driver, timeout, poll_frequency=pollFreq,
                                  ignored_exceptions=[NoSuchElementException, ElementNotVisibleException,
@@ -129,9 +134,9 @@ class SeleniumDriver():
 
             element = wait.until(EC.element_to_be_clickable((byType, locator)))
 
-            print("Element appered on the web page ")
+            self.log.info("Element appered on the web page ")
         except:
-            print("Element not appeared on the web page")
+            self.log.exception("Element not appeared on the web page")
             print_stack()
         return element
 
@@ -161,7 +166,7 @@ class SeleniumDriver():
             element = self.getElement(locator, locatorType)
             action = ActionChains(self.driver)
             action.move_to_element(element).perform()
-            print(" Mouse hover on element " + locator + "locator type: " + locatorType)
+            self.log.info(" Mouse hover on element " + locator + "locator type: " + locatorType)
         except:
             print(" Cannot Mouse hover  on element " + locator + "locator type: " + locatorType)
             print_stack()
@@ -176,7 +181,7 @@ class SeleniumDriver():
         try:
             element = self.getElement(locator,locatorType)
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            print(" Scroll to element " + locator + "locator type: " + locatorType)
+            self.log.info(" Scroll to element " + locator + "locator type: " + locatorType)
         except:
             print(" Cannot scroll to element " + locator + "locator type: " + locatorType)
             print_stack()

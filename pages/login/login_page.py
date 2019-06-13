@@ -1,8 +1,11 @@
 from base.selenium_driver import SeleniumDriver
 import time
+import utilities.logger_Utility as cl
+import logging
 
 class LoginPage(SeleniumDriver):
- 
+
+    log = cl.CustomLogger(logging.DEBUG)
     # Constructor will accept driver
     def __init__(self,driver):
         super().__init__(driver)
