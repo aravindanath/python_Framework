@@ -1,27 +1,24 @@
 from selenium import webdriver
 from pages.login.login_page import LoginPage
-
 import unittest
+import pytest
 
+@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
 
+    @pytest.fixture(autouse=True)
+    def classSetup(self, oneTimeSetUp):
+        self.lp = LoginPage(self.driver)
+
+
+    @pytest.mark.run(order=2)
     def test_validLogin(self):
-        path = "/Users/aravindanathdm/Documents/PythonPOM_FW/driver/chromedriver"
-        driver =  webdriver.Chrome(executable_path=path)
-        driver.fullscreen_window()
-        driver.implicitly_wait(30)
-        baseURL ="https://www.amazon.in"
-        driver.get(baseURL)
+        self.lp.login("test@email.com", "abcabc")
+        result = self.lp.verifyLoginSuccessful()
+        assert result == True
 
-
-        lp = LoginPage(driver)
-        lp.login("iphone","stiku6033@gmail.com","amazonapps")
-
-
-
-# py.test -s -v /Users/aravindanathdm/Documents/Simple_Pom_py_fw/tests/login/login_tests.py --html=../screenshots/demo.html
-
-
-if __name__ == "__main__":
-    unittest.main(verbosity=2)
-
+    @pytest.mark.run(order=1)
+    def test_invalidLogin(self):
+        self.lp.login("test@email.com", "abcabcabc")
+        result = self.lp.verifyLoginFailed()
+        assert result == True
