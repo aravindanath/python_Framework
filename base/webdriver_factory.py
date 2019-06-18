@@ -43,15 +43,16 @@ class WebDriverFactory():
         baseURL = "https://www.amazon.in/"
 
         if self.browser == "chrome":
-            path = "/Users/aravindanathdm/Documents/PythonPOM_FW/driver/chromedriver"
+
+            path = "../driver/chromedriver"
             driver = webdriver.Chrome(executable_path=path)
             print("running on chrome")
         elif self.browser == "firefox":
-            path = "/Users/aravindanathdm/Documents/PythonPOM_FW/driver/geckodriver"
+            path = "../driver/geckodriver"
             driver = webdriver.Firefox(executable_path=path)
             print("running on firefox")
         else:
-            path = "/Users/aravindanathdm/Documents/PythonPOM_FW/driver/geckodriver"
+            path = "../driver/geckodriver"
             driver = webdriver.Firefox(executable_path=path)
             print("running on firefox")
 
