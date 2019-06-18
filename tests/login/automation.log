@@ -300,3 +300,820 @@ Traceback (most recent call last):
 selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
 
 06/17/2019 06:37:47 AM - LoginPage - INFO: Element not found
+06/17/2019 09:58:39 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: Login
+
+06/17/2019 09:58:39 PM - LoginPage - ERROR:  Cannot click  on element Loginlocator type: link
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 64, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/17/2019 09:58:42 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_email"]
+
+06/17/2019 09:58:42 PM - LoginPage - ERROR:  Cannot send data  on element user_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 74, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/17/2019 09:58:45 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_password"]
+
+06/17/2019 09:58:45 PM - LoginPage - ERROR:  Cannot send data  on element user_passwordlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 74, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/17/2019 09:58:48 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="commit"]
+
+06/17/2019 09:58:48 PM - LoginPage - ERROR:  Cannot click  on element commitlocator type: name
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 64, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/17/2019 09:58:51 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[contains(text(),'Invalid email or password')]
+
+06/17/2019 09:58:51 PM - LoginPage - INFO: Element not found
+06/17/2019 09:58:55 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: Login
+
+06/17/2019 09:58:55 PM - LoginPage - ERROR:  Cannot click  on element Loginlocator type: link
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 64, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/17/2019 09:58:58 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_email"]
+
+06/17/2019 09:58:58 PM - LoginPage - ERROR:  Cannot send data  on element user_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 74, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/17/2019 09:59:01 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_password"]
+
+06/17/2019 09:59:01 PM - LoginPage - ERROR:  Cannot send data  on element user_passwordlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 74, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/17/2019 09:59:04 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="commit"]
+
+06/17/2019 09:59:04 PM - LoginPage - ERROR:  Cannot click  on element commitlocator type: name
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 64, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/17/2019 09:59:07 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 52, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/17/2019 09:59:07 PM - LoginPage - INFO: Element not found
+06/18/2019 05:28:11 AM - LoginPage - INFO: Element found
+06/18/2019 05:28:11 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:28:12 AM - LoginPage - INFO: Element found
+06/18/2019 05:28:12 AM - LoginPage - INFO: Element found
+06/18/2019 05:28:15 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_email"]
+
+06/18/2019 05:28:15 AM - LoginPage - ERROR:  Cannot send data  on element user_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:28:18 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="continue"]
+
+06/18/2019 05:28:18 AM - LoginPage - ERROR:  Cannot click  on element continuelocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 67, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/18/2019 05:28:21 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_password"]
+
+06/18/2019 05:28:21 AM - LoginPage - ERROR:  Cannot send data  on element user_passwordlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:28:21 AM - LoginPage - INFO: Element found
+06/18/2019 05:28:21 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:28:24 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:28:24 AM - LoginPage - INFO: Element not found
+06/18/2019 05:31:57 AM - LoginPage - INFO: Element found
+06/18/2019 05:31:58 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:31:58 AM - LoginPage - INFO: Element found
+06/18/2019 05:31:58 AM - LoginPage - INFO: Element found
+06/18/2019 05:32:01 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_email"]
+
+06/18/2019 05:32:01 AM - LoginPage - ERROR:  Cannot send data  on element user_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:32:05 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="continue"]
+
+06/18/2019 05:32:05 AM - LoginPage - ERROR:  Cannot click  on element continuelocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 67, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/18/2019 05:32:08 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_password"]
+
+06/18/2019 05:32:08 AM - LoginPage - ERROR:  Cannot send data  on element user_passwordlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:32:08 AM - LoginPage - INFO: Element found
+06/18/2019 05:32:08 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:32:11 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:32:11 AM - LoginPage - INFO: Element not found
+06/18/2019 05:33:03 AM - LoginPage - INFO: Element found
+06/18/2019 05:33:04 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:33:04 AM - LoginPage - INFO: Element found
+06/18/2019 05:33:04 AM - LoginPage - INFO: Element found
+06/18/2019 05:33:07 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_email"]
+
+06/18/2019 05:33:07 AM - LoginPage - ERROR:  Cannot send data  on element user_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:33:10 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="continue"]
+
+06/18/2019 05:33:10 AM - LoginPage - ERROR:  Cannot click  on element continuelocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 67, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/18/2019 05:33:14 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_password"]
+
+06/18/2019 05:33:14 AM - LoginPage - ERROR:  Cannot send data  on element user_passwordlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:33:14 AM - LoginPage - INFO: Element found
+06/18/2019 05:33:14 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:33:16 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/request.py", line 72, in request
+    **urlopen_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/request.py", line 150, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/poolmanager.py", line 323, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+06/18/2019 05:33:16 AM - LoginPage - INFO: Element not found
+06/18/2019 05:34:12 AM - LoginPage - INFO: Element found
+06/18/2019 05:34:12 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:34:13 AM - LoginPage - INFO: Element found
+06/18/2019 05:34:13 AM - LoginPage - INFO: Element found
+06/18/2019 05:34:16 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_email"]
+
+06/18/2019 05:34:16 AM - LoginPage - ERROR:  Cannot send data  on element user_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:34:16 AM - LoginPage - INFO: Element found
+06/18/2019 05:34:16 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 05:34:19 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_password"]
+
+06/18/2019 05:34:19 AM - LoginPage - ERROR:  Cannot send data  on element user_passwordlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:34:22 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="signInSubmit"]
+
+06/18/2019 05:34:22 AM - LoginPage - ERROR:  Cannot click  on element signInSubmitlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 67, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/18/2019 05:34:25 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:34:25 AM - LoginPage - INFO: Element not found
+06/18/2019 05:35:31 AM - LoginPage - INFO: Element found
+06/18/2019 05:35:33 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:35:33 AM - LoginPage - INFO: Element found
+06/18/2019 05:35:33 AM - LoginPage - INFO: Element found
+06/18/2019 05:35:36 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_email"]
+
+06/18/2019 05:35:36 AM - LoginPage - ERROR:  Cannot send data  on element user_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:35:36 AM - LoginPage - INFO: Element found
+06/18/2019 05:35:36 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 05:35:39 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="user_password"]
+
+06/18/2019 05:35:39 AM - LoginPage - ERROR:  Cannot send data  on element user_passwordlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+06/18/2019 05:35:42 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="signInSubmit"]
+
+06/18/2019 05:35:42 AM - LoginPage - ERROR:  Cannot click  on element signInSubmitlocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 67, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/18/2019 05:35:45 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:35:45 AM - LoginPage - INFO: Element not found
+06/18/2019 05:37:25 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:26 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:37:27 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:27 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:27 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:27 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 05:37:27 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:28 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 05:37:28 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:29 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 05:37:29 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:32 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:37:35 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:37:35 AM - LoginPage - INFO: Element not found
+06/18/2019 05:37:50 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:51 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:37:51 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:51 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 05:37:51 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:53 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 05:37:53 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:53 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:37:53 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: Given xpath expression "//*[@id='auth-email-missing-alert']/div/div]" is invalid: SyntaxError: The expression is not a legal expression.
+
+06/18/2019 05:37:53 AM - LoginPage - INFO: Element not found
+06/18/2019 05:37:58 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //span[text()='Hello, Sign in']
+
+06/18/2019 05:37:58 AM - LoginPage - ERROR:  Cannot click  on element //span[text()='Hello, Sign in']locator type: xpath
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 67, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/18/2019 05:37:58 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:58 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:58 AM - LoginPage - INFO: Element found
+06/18/2019 05:37:58 AM - LoginPage - ERROR:  Cannot send data  on element ap_emaillocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 77, in sendKeys
+    element.send_keys(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <input id="ap_email" name="email" type="hidden"> is not reachable by keyboard
+
+06/18/2019 05:38:01 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="continue"]
+
+06/18/2019 05:38:01 AM - LoginPage - ERROR:  Cannot click  on element continuelocator type: id
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 67, in elementClick
+    element.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+06/18/2019 05:38:01 AM - LoginPage - INFO: Element found
+06/18/2019 05:38:02 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 05:38:02 AM - LoginPage - INFO: Element found
+06/18/2019 05:38:04 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:38:07 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:38:07 AM - LoginPage - INFO: Element not found
+06/18/2019 05:39:02 AM - LoginPage - INFO: Element found
+06/18/2019 05:39:04 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:39:04 AM - LoginPage - INFO: Element found
+06/18/2019 05:39:04 AM - LoginPage - INFO: Element found
+06/18/2019 05:39:04 AM - LoginPage - INFO: Element found
+06/18/2019 05:39:04 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 05:39:04 AM - LoginPage - INFO: Element found
+06/18/2019 05:39:05 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 05:39:06 AM - LoginPage - INFO: Element found
+06/18/2019 05:39:06 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 05:39:06 AM - LoginPage - INFO: Element found
+06/18/2019 05:39:08 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:39:11 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:39:11 AM - LoginPage - INFO: Element not found
+06/18/2019 05:42:58 AM - LoginPage - INFO: Element found
+06/18/2019 05:42:59 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:42:59 AM - LoginPage - INFO: Element found
+06/18/2019 05:42:59 AM - LoginPage - INFO: Element found
+06/18/2019 05:42:59 AM - LoginPage - INFO: Element found
+06/18/2019 05:42:59 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 05:42:59 AM - LoginPage - INFO: Element found
+06/18/2019 05:43:00 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 05:43:00 AM - LoginPage - INFO: Element found
+06/18/2019 05:43:00 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 05:43:00 AM - LoginPage - INFO: Element found
+06/18/2019 05:43:03 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:43:06 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 55, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id='navbar']//span[text()='User Settings']
+
+06/18/2019 05:43:06 AM - LoginPage - INFO: Element not found
+06/18/2019 05:44:34 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:35 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 05:44:35 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:35 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:35 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:35 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 05:44:35 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:36 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 05:44:36 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:36 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 05:44:36 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:39 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 05:44:39 AM - LoginPage - INFO: Element found
+06/18/2019 05:44:39 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:24 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:25 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 06:18:25 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:25 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:25 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:25 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 06:18:25 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:26 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 06:18:27 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:27 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 06:18:27 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:30 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 06:18:30 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/18/2019 06:18:30 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:30 AM - LoginPage - INFO: Element found
+06/18/2019 06:18:30 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/18/2019 06:18:30 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/18/2019 06:21:35 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:35 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 06:21:35 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:35 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:35 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:36 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 06:21:36 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:37 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 06:21:37 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:37 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 06:21:37 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:40 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 06:21:41 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/18/2019 06:21:41 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:41 AM - LoginPage - INFO: Element found
+06/18/2019 06:21:41 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/18/2019 06:21:41 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/18/2019 06:24:20 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:20 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 06:24:21 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:21 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:21 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:21 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 06:24:21 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:22 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 06:24:23 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:23 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 06:24:23 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:26 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 06:24:26 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/18/2019 06:24:26 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:26 AM - LoginPage - INFO: Element found
+06/18/2019 06:24:26 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/18/2019 06:24:26 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/18/2019 06:26:42 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:42 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 06:26:43 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:43 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:43 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:43 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 06:26:43 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:44 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 06:26:45 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:45 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 06:26:45 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:48 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 06:26:48 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:48 AM - LoginPage - INFO: Element found
+06/18/2019 06:26:48 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Verification
+06/18/2019 06:26:48 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/18/2019 06:28:35 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:36 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 06:28:36 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:36 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:36 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:37 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 06:28:37 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:38 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 06:28:39 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:39 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 06:28:39 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:44 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 06:28:44 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/18/2019 06:28:44 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:44 AM - LoginPage - INFO: Element found
+06/18/2019 06:28:44 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/18/2019 06:28:44 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/18/2019 06:29:59 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:02 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/18/2019 06:30:02 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:02 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:02 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:03 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/18/2019 06:30:03 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:04 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/18/2019 06:30:05 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:05 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/18/2019 06:30:05 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:09 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/18/2019 06:30:09 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/18/2019 06:30:09 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:09 AM - LoginPage - INFO: Element found
+06/18/2019 06:30:09 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/18/2019 06:30:09 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL

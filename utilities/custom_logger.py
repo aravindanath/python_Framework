@@ -1,7 +1,7 @@
 import logging
 import inspect
 
-def CustomLogger(logLevel=logging.DEBUG):
+def customLogger(logLevel=logging.DEBUG):
     # Get the name of the class / method from where this method is called
     loggerName = inspect.stack()[1][3]
     logger  = logging.getLogger(loggerName)
@@ -9,7 +9,7 @@ def CustomLogger(logLevel=logging.DEBUG):
     logger.setLevel(logging.DEBUG)
 
 
-    fileHandler =  logging.FileHandler("automation.log", mode='a')
+    fileHandler =  logging.FileHandler("./automation.log", mode='a')
     fileHandler.setLevel(logLevel)
 
     formatter =  logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s',

@@ -40,11 +40,11 @@ class WebDriverFactory():
             'webDriver Instance'
 
         """
-        baseURL = "https://www.amazon.com/"
+        baseURL = "https://www.amazon.in/"
 
         if self.browser == "chrome":
             path = "/Users/aravindanathdm/Documents/PythonPOM_FW/driver/chromedriver"
-            driver = webdriver.Chrome()
+            driver = webdriver.Chrome(executable_path=path)
             print("running on chrome")
         elif self.browser == "firefox":
             path = "/Users/aravindanathdm/Documents/PythonPOM_FW/driver/geckodriver"
