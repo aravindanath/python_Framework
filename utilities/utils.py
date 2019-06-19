@@ -53,6 +53,17 @@ class Util(object):
         """
         return self.getAlphaNumeric(charCount, 'lower')
 
+    def getUniqueMobileNo(self, charCount=10):
+
+
+        """
+
+        :param charCount:
+        :return:
+
+        """
+        return self.getAlphaNumeric(charCount, 'digits')
+
     def getUniqueNameList(self, listSize=5, itemLength=None):
         """
         Get a list of valid email ids

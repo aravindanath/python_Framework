@@ -16,7 +16,7 @@ class LoginTests(unittest.TestCase):
     @pytest.mark.run(order=1)
     def test_validLogin(self):
         self.lp.login("stiku6033@gmail.com", "amazonapps")
-
+        # Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
         title = self.lp.verifyTitle("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in")
         self.ts.mark(title, "Title mismatch!")
         result = self.lp.verifyLoginSuccessful()
@@ -24,8 +24,9 @@ class LoginTests(unittest.TestCase):
 
 
 
-    # @pytest.mark.run(order=1)
-    # def test_invalidLogin(self):
-    #     self.lp.inValidlogin("test@email.com","dummy")
+    #
+    @pytest.mark.run(order=2)
+    def test_invalidLogin(self):
+        self.lp.inValidlogin()
     #     result = self.lp.verifyLoginFailed()
-    #     assert result == True
+    #     self.ts.markFinal("test_invalidLogin", result, "Login was not successful")

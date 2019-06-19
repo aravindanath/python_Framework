@@ -1117,3 +1117,129 @@ selenium.common.exceptions.NoSuchElementException: Message: Unable to locate ele
 06/18/2019 06:30:09 AM - LoginPage - INFO: Element found
 06/18/2019 06:30:09 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
 06/18/2019 06:30:09 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/19/2019 04:50:01 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:03 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/19/2019 04:50:03 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:03 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:03 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:04 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/19/2019 04:50:04 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:05 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/19/2019 04:50:05 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:05 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/19/2019 04:50:05 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:08 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/19/2019 04:50:08 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/19/2019 04:50:08 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:08 AM - LoginPage - INFO: Element found
+06/19/2019 04:50:08 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/19/2019 04:50:08 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/19/2019 05:11:56 AM - LoginPage - INFO: Element found
+06/19/2019 05:11:57 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/19/2019 05:11:57 AM - LoginPage - INFO: Element found
+06/19/2019 05:11:57 AM - LoginPage - INFO: Element found
+06/19/2019 05:11:57 AM - LoginPage - INFO: Element found
+06/19/2019 05:11:57 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/19/2019 05:11:57 AM - LoginPage - INFO: Element found
+06/19/2019 05:11:58 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/19/2019 05:11:59 AM - LoginPage - INFO: Element found
+06/19/2019 05:11:59 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/19/2019 05:11:59 AM - LoginPage - INFO: Element found
+06/19/2019 05:12:01 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/19/2019 05:12:01 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/19/2019 05:12:01 AM - LoginPage - INFO: Element found
+06/19/2019 05:12:01 AM - LoginPage - INFO: Element found
+06/19/2019 05:12:01 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/19/2019 05:12:01 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/19/2019 05:14:21 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:22 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/19/2019 05:14:22 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:22 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:22 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:22 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/19/2019 05:14:22 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:23 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/19/2019 05:14:24 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:24 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/19/2019 05:14:24 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:26 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/19/2019 05:14:26 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title mismatch!
+06/19/2019 05:14:28 AM - TestStatus - INFO: Screenshot save to directory: /Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/../screenshots/Title mismatch!.1560901466962.png
+06/19/2019 05:14:28 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:28 AM - LoginPage - INFO: Element found
+06/19/2019 05:14:28 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/19/2019 05:14:28 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+06/19/2019 05:15:15 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:16 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/19/2019 05:15:16 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:16 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:16 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:16 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/19/2019 05:15:16 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:18 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/19/2019 05:15:18 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:18 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/19/2019 05:15:18 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:21 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/19/2019 05:15:21 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/19/2019 05:15:21 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:21 AM - LoginPage - INFO: Element found
+06/19/2019 05:15:21 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/19/2019 05:15:21 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/19/2019 05:32:39 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:39 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/19/2019 05:32:39 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:39 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:40 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:40 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/19/2019 05:32:40 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:41 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/19/2019 05:32:41 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:41 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/19/2019 05:32:41 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:44 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/19/2019 05:32:44 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/19/2019 05:32:44 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:44 AM - LoginPage - INFO: Element found
+06/19/2019 05:32:44 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/19/2019 05:32:44 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/19/2019 05:36:20 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/19/2019 05:36:20 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/19/2019 05:36:20 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/19/2019 05:36:22 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:23 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/19/2019 05:36:23 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:23 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:23 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:23 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/19/2019 05:36:23 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:24 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/19/2019 05:36:24 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:24 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/19/2019 05:36:24 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:27 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/19/2019 05:36:27 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/19/2019 05:36:27 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:27 AM - LoginPage - INFO: Element found
+06/19/2019 05:36:27 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/19/2019 05:36:27 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/19/2019 05:38:04 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/19/2019 05:38:04 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/19/2019 05:38:04 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/19/2019 05:38:06 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:07 AM - LoginPage - INFO:  Clicked  on element //span[text()='Hello, Sign in']locator type: xpath
+06/19/2019 05:38:07 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:07 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:07 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:07 AM - LoginPage - INFO:  Send data  on element ap_emaillocator type: id
+06/19/2019 05:38:07 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:09 AM - LoginPage - INFO:  Clicked  on element continuelocator type: id
+06/19/2019 05:38:09 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:09 AM - LoginPage - INFO:  Send data  on element ap_passwordlocator type: id
+06/19/2019 05:38:09 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:13 AM - LoginPage - INFO:  Clicked  on element signInSubmitlocator type: id
+06/19/2019 05:38:13 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/19/2019 05:38:14 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:14 AM - LoginPage - INFO: Element found
+06/19/2019 05:38:14 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/19/2019 05:38:14 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL

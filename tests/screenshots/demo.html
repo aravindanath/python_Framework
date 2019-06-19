@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>demo.html</h1>
-    <p>Report generated on 17-Jun-2019 at 06:17:49 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <p>Report generated on 19-Jun-2019 at 05:12:02 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -251,8 +251,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.2</td></tr></table>
     <h2>Summary</h2>
-    <p>0 tests ran in 0.12 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 15.04 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -262,4 +262,38 @@ function filter_table(elem) {
           <th class="sortable numeric" col="duration">Duration</th>
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
-          <th colspan="4">No results found. Try to check the filters</th></tr></thead></table></body></html>
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">login_tests.py::LoginTests::test_invalidLogin</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;tests.login.login_tests.LoginTests testMethod=test_invalidLogin&gt;<br/><br/>    @pytest.mark.run(order=2)<br/>    def test_invalidLogin(self):<br/>&gt;       self.lp.inValidlogin(&quot;test@email.com&quot;,&quot;dummy&quot;)<br/><span class="error">E       TypeError: inValidlogin() takes from 1 to 2 positional arguments but 3 were given</span><br/><br/>login_tests.py:29: TypeError<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">login_tests.py::LoginTests::test_validLogin</td>
+          <td class="col-duration">6.96</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">------------------------------ Captured log call -------------------------------<br/>[32mINFO    [0m LoginPage:selenium_driver.py:76 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:88  Clicked  on element //span[text()=&#x27;Hello, Sign in&#x27;]locator type: xpath
+[32mINFO    [0m LoginPage:selenium_driver.py:76 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:136 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:76 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:98  Send data  on element ap_emaillocator type: id
+[32mINFO    [0m LoginPage:selenium_driver.py:76 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:88  Clicked  on element continuelocator type: id
+[32mINFO    [0m LoginPage:selenium_driver.py:76 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:98  Send data  on element ap_passwordlocator type: id
+[32mINFO    [0m LoginPage:selenium_driver.py:76 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:88  Clicked  on element signInSubmitlocator type: id
+[32mINFO    [0m TestStatus:teststatus.py:30 ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+[32mINFO    [0m LoginPage:selenium_driver.py:76 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:136 Element found
+[32mINFO    [0m TestStatus:teststatus.py:30 ### VERIFICATION SUCCESSFUL :: + Login was not successful
+[32mINFO    [0m TestStatus:teststatus.py:64 test_validLogin ### TEST SUCCESSFUL</div></td></tr></tbody></table></body></html>
