@@ -44,15 +44,15 @@ class WebDriverFactory():
 
         if self.browser == "chrome":
 
-            path = "../driver/chromedriver"
+            path = "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/driver/chromedriver"
             driver = webdriver.Chrome(executable_path=path)
             print("running on chrome")
         elif self.browser == "firefox":
-            path = "../driver/geckodriver"
+            path = "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/driver/geckodriver"
             driver = webdriver.Firefox(executable_path=path)
             print("running on firefox")
         else:
-            path = "../driver/geckodriver"
+            path = "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/driver/geckodriver"
             driver = webdriver.Firefox(executable_path=path)
             print("running on firefox")
 
