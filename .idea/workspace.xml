@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4e54ed2-b1b9-48a9-8a1b-f9a69b2466ac" name="Default Changelist" comment="">
+    <list default="true" id="a4e54ed2-b1b9-48a9-8a1b-f9a69b2466ac" name="Default Changelist" comment="Updated utils,Basepage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login/login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/login_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/screenshots/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/screenshots/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/screenshots/snapShot.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/screenshots/snapShot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/utils.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/basicSyn/variable.py" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/PythonSeleniumProject/basicSyn/variable.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/login/login_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="312">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -42,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
+            <state relative-caret-position="-1016">
               <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -382,7 +373,7 @@
       <workItem from="1560663544571" duration="455000" />
       <workItem from="1560730727846" duration="2638000" />
       <workItem from="1560787213917" duration="6632000" />
-      <workItem from="1560899960987" duration="2774000" />
+      <workItem from="1560899960987" duration="3811000" />
     </task>
     <task id="LOCAL-00001" summary="updated gitDemo with sucess msg.">
       <created>1559528173849</created>
@@ -503,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560902466899</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated utils,Basepage">
+      <created>1560903282844</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560903282844</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -539,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55254000" />
+    <option name="totallyTimeSpent" value="56291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="6" />
@@ -549,13 +547,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5974395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5974395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32859176" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.51209104" />
@@ -879,16 +877,6 @@
     <entry file="file://$PROJECT_DIR$/screenshots/Title mismatch!.1560901466962.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-          <folding>
-            <element signature="e#168#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utilities/teststatus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -909,6 +897,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1016">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding>
+            <element signature="e#168#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -918,20 +926,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/login/login_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="312">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
