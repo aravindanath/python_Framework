@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e54ed2-b1b9-48a9-8a1b-f9a69b2466ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testdata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/home/home_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/read_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_suite_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/webdriver_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriver_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/driver/geckodriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/login/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/automation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/login/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login/login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/login_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/screenshots/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/screenshots/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/screenshots/snapShot.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/screenshots/snapShot.png" afterDir="false" />
     </list>
@@ -25,13 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/home/home_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="117">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_suite_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,6 +188,7 @@
         <option value="$PROJECT_DIR$/testdata.csv" />
         <option value="$PROJECT_DIR$/utilities/read_data.py" />
         <option value="$PROJECT_DIR$/tests/home/home_tests.py" />
+        <option value="$PROJECT_DIR$/tests/test_suite_demo.py" />
       </list>
     </option>
   </component>
@@ -207,12 +212,27 @@
             <path>
               <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
               <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
               <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Simple_Pom_py_fw" type="b2602c69:ProjectViewProjectNode" />
               <item name="Simple_Pom_py_fw" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,7 +443,7 @@
       <workItem from="1560899960987" duration="4050000" />
       <workItem from="1560956919247" duration="1421000" />
       <workItem from="1560965763393" duration="2166000" />
-      <workItem from="1560968052125" duration="578000" />
+      <workItem from="1560968052125" duration="1407000" />
     </task>
     <task id="LOCAL-00001" summary="updated gitDemo with sucess msg.">
       <created>1559528173849</created>
@@ -558,13 +578,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560906239239</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated csv">
+      <created>1560968773826</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1560968773826</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_home_tests_py - 2019.06.19 at 23h 24m 17s.xml">
-      <configuration name="pytest in home_tests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_home_tests_py - 2019.06.19 at 23h 25m 35s.xml">
       <configuration name="pytest in home_tests.py" configurationId="tests" />
     </history-entry>
@@ -592,19 +616,22 @@
     <history-entry file="pytest_for_home_tests_HomeTest - 2019.06.19 at 23h 39m 03s.xml">
       <configuration name="pytest for home_tests.HomeTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_home_tests_HomeTest - 2019.06.19 at 23h 53m 47s.xml">
+      <configuration name="pytest for home_tests.HomeTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60695000" />
+    <option name="totallyTimeSpent" value="61524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.26560232" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.26560232" />
       <window_info id="Structure" order="1" sideWeight="0.50071126" side_tool="true" weight="0.17053701" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32828283" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5972222" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5972222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,7 +640,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.21717171" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.46843433" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.46843433" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32859176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -642,7 +669,8 @@
     <MESSAGE value="Updated CODE" />
     <MESSAGE value="Updated utils,teststatus" />
     <MESSAGE value="Updated utils,Basepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated utils,Basepage" />
+    <MESSAGE value="Updated csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated csv" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonPOM$test_run_order.coverage" NAME="test_run_order Coverage Results" MODIFIED="1559613377174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day17_pytest_demo" />
@@ -671,20 +699,6 @@
     <SUITE FILE_PATH="coverage/PythonPOM$variable.coverage" NAME="variable Coverage Results" MODIFIED="1559613948930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/PythonSeleniumProject/basicSyn" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day14/Scroll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/PythonSeleniumProject/Day11/logger.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1004,12 +1018,25 @@
     <entry file="file://$PROJECT_DIR$/screenshots/Login was not successful.1560968626500.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/screenshots/demo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/home/home_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="117">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_suite_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
