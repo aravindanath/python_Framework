@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>demo.html</h1>
-    <p>Report generated on 20-Jun-2019 at 05:48:26 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <p>Report generated on 14-Jul-2019 at 17:06:15 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -251,8 +251,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.2</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 55.52 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">3 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 11.23 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -263,150 +263,13 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_suite_demo.py::HomeTest::test_validLogin_1___stiku6033_gmail_com_____amazonapps____iphone_7__</td>
-          <td class="col-duration">10.54</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;tests.home.home_tests.HomeTest testMethod=test_validLogin_1___stiku6033_gmail_com_____amazonapps____iphone_7__&gt;, email = &#x27;stiku6033@gmail.com&#x27;, password = &#x27; amazonapps&#x27;<br/>search = &#x27;iphone 7&#x27;<br/><br/>    @pytest.mark.run(order=1)<br/>    # * -- means mutiple args<br/>    @data(*getCSVData(&quot;/Users/aravindanathdm/Documents/Simple_Pom_py_fw/testdata.csv&quot;))<br/>    @unpack<br/>    def test_validLogin(self,email,password,search):<br/>        self.lp.login(email, password)<br/>        # Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in<br/>        title = self.lp.verifyTitle(&quot;Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in&quot;)<br/>        self.ts.mark(title, &quot;Title mismatch!&quot;)<br/>        result = self.lp.verifyLoginSuccessful()<br/>&gt;       self.ts.markFinal(&quot;test_validLogin&quot;,result,&quot;Login was not successful&quot;)<br/><br/>../home/home_tests.py:45: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;utilities.teststatus.TestStatus object at 0x1116f0e10&gt;, testName = &#x27;test_validLogin&#x27;, result = False, resultMessage = &#x27;Login was not successful&#x27;<br/><br/>    def markFinal(self, testName, result, resultMessage):<br/>        &quot;&quot;&quot;<br/>        Mark the final result of the verification point in a test case<br/>        This needs to be called at least once in a test case<br/>        This should be final test status of the test case<br/>        &quot;&quot;&quot;<br/>        self.setResult(result, resultMessage)<br/>    <br/>        if &quot;FAIL&quot; in self.resultList:<br/>            self.log.error(testName +  &quot; ### TEST FAILED&quot;)<br/>            self.resultList.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>../../utilities/teststatus.py:62: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>[32mINFO    [0m Util:utils.py:87 Actual Text From Application Web UI --&gt; :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
-[32mINFO    [0m Util:utils.py:88 Expected Text From Application Web UI --&gt; :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
-[32mINFO    [0m Util:utils.py:90 ### VERIFICATION CONTAINS !!!
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: //span[text()=&#x27;Hello, Sign in&#x27;] locatorType: xpath
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:169 Element present with locator: (//i[starts-with(@class,&#x27;a-icon&#x27;)])[1] locatorType: xpath
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:122 Sent data on element with locator: ap_email locatorType: id
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: continue locatorType: id
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:122 Sent data on element with locator: ap_password locatorType: id
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: signInSubmit locatorType: id
-[31m[1mERROR   [0m TestStatus:teststatus.py:33 ### VERIFICATION FAILED :: + Title mismatch!
-[32mINFO    [0m TestStatus:selenium_driver.py:38 Screenshot save to directory: /Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/../screenshots/Title mismatch!.1560989863202.png
-[31m[1mERROR   [0m LoginPage:selenium_driver.py:93 Element not found
-Traceback (most recent call last):
-  File &quot;/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py&quot;, line 90, in getElement
-    element = self.driver.find_element(byType,locator)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 978, in find_element
-    &#x27;value&#x27;: value})[&#x27;value&#x27;]
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 321, in execute
-    self.error_handler.check_response(response)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py&quot;, line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[id=&quot;twotabsearchtextbox&quot;]&quot;}
-  (Session info: chrome=75.0.3770.100)
-
-[32mINFO    [0m LoginPage:selenium_driver.py:173 Element not present with locator: twotabsearchtextbox locatorType: id
-[31m[1mERROR   [0m TestStatus:teststatus.py:33 ### VERIFICATION FAILED :: + Login was not successful
-[32mINFO    [0m TestStatus:selenium_driver.py:38 Screenshot save to directory: /Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/../screenshots/Login was not successful.1560989866677.png
-[31m[1mERROR   [0m TestStatus:teststatus.py:60 test_validLogin ### TEST FAILED</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_suite_demo.py::HomeTest::test_validLogin_2___automation_gmail_com____auto2018____samsung__</td>
-          <td class="col-duration">22.66</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;tests.home.home_tests.HomeTest testMethod=test_validLogin_2___automation_gmail_com____auto2018____samsung__&gt;, email = &#x27;automation@gmail.com&#x27;, password = &#x27;auto2018&#x27;, search = &#x27;samsung&#x27;<br/><br/>    @pytest.mark.run(order=1)<br/>    # * -- means mutiple args<br/>    @data(*getCSVData(&quot;/Users/aravindanathdm/Documents/Simple_Pom_py_fw/testdata.csv&quot;))<br/>    @unpack<br/>    def test_validLogin(self,email,password,search):<br/>        self.lp.login(email, password)<br/>        # Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in<br/>        title = self.lp.verifyTitle(&quot;Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in&quot;)<br/>        self.ts.mark(title, &quot;Title mismatch!&quot;)<br/>        result = self.lp.verifyLoginSuccessful()<br/>&gt;       self.ts.markFinal(&quot;test_validLogin&quot;,result,&quot;Login was not successful&quot;)<br/><br/>../home/home_tests.py:45: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;utilities.teststatus.TestStatus object at 0x111711438&gt;, testName = &#x27;test_validLogin&#x27;, result = False, resultMessage = &#x27;Login was not successful&#x27;<br/><br/>    def markFinal(self, testName, result, resultMessage):<br/>        &quot;&quot;&quot;<br/>        Mark the final result of the verification point in a test case<br/>        This needs to be called at least once in a test case<br/>        This should be final test status of the test case<br/>        &quot;&quot;&quot;<br/>        self.setResult(result, resultMessage)<br/>    <br/>        if &quot;FAIL&quot; in self.resultList:<br/>            self.log.error(testName +  &quot; ### TEST FAILED&quot;)<br/>            self.resultList.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>../../utilities/teststatus.py:62: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>[32mINFO    [0m Util:utils.py:87 Actual Text From Application Web UI --&gt; :: Amazon Sign In
-[32mINFO    [0m Util:utils.py:88 Expected Text From Application Web UI --&gt; :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
-[32mINFO    [0m Util:utils.py:93 ### VERIFICATION DOES NOT CONTAINS !!!
-[31m[1mERROR   [0m LoginPage:selenium_driver.py:93 Element not found
-Traceback (most recent call last):
-  File &quot;/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py&quot;, line 90, in getElement
-    element = self.driver.find_element(byType,locator)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 978, in find_element
-    &#x27;value&#x27;: value})[&#x27;value&#x27;]
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 321, in execute
-    self.error_handler.check_response(response)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py&quot;, line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&#x27;Hello, Sign in&#x27;]&quot;}
-  (Session info: chrome=75.0.3770.100)
-
-[32mINFO    [0m LoginPage:selenium_driver.py:109 Cannot click on the element with locator: //span[text()=&#x27;Hello, Sign in&#x27;] locatorType: xpath
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:169 Element present with locator: (//i[starts-with(@class,&#x27;a-icon&#x27;)])[1] locatorType: xpath
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:125 Cannot send data on the element with locator: ap_email locatorType: id
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: continue locatorType: id
-[31m[1mERROR   [0m LoginPage:selenium_driver.py:93 Element not found
-Traceback (most recent call last):
-  File &quot;/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py&quot;, line 90, in getElement
-    element = self.driver.find_element(byType,locator)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 978, in find_element
-    &#x27;value&#x27;: value})[&#x27;value&#x27;]
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 321, in execute
-    self.error_handler.check_response(response)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py&quot;, line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[id=&quot;ap_password&quot;]&quot;}
-  (Session info: chrome=75.0.3770.100)
-
-[32mINFO    [0m LoginPage:selenium_driver.py:125 Cannot send data on the element with locator: ap_password locatorType: id
-[31m[1mERROR   [0m LoginPage:selenium_driver.py:93 Element not found
-Traceback (most recent call last):
-  File &quot;/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py&quot;, line 90, in getElement
-    element = self.driver.find_element(byType,locator)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 978, in find_element
-    &#x27;value&#x27;: value})[&#x27;value&#x27;]
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py&quot;, line 321, in execute
-    self.error_handler.check_response(response)
-  File &quot;/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py&quot;, line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[id=&quot;signInSubmit&quot;]&quot;}
-  (Session info: chrome=75.0.3770.100)
-
-[32mINFO    [0m LoginPage:selenium_driver.py:109 Cannot click on the element with locator: signInSubmit locatorType: id
-[31m[1mERROR   [0m TestStatus:teststatus.py:33 ### VERIFICATION FAILED :: + Title mismatch!
-[32mINFO    [0m TestStatus:selenium_driver.py:38 Screenshot save to directory: /Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/../screenshots/Title mismatch!.1560989889209.png
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:173 Element not present with locator: twotabsearchtextbox locatorType: id
-[31m[1mERROR   [0m TestStatus:teststatus.py:33 ### VERIFICATION FAILED :: + Login was not successful
-[31m[1mERROR   [0m TestStatus:selenium_driver.py:40 ### Exception Occurred when taking screenshot
-[31m[1mERROR   [0m TestStatus:teststatus.py:60 test_validLogin ### TEST FAILED</div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_suite_demo.py::HomeTest::test_validLogin_3___</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;tests.home.home_tests.HomeTest testMethod=test_validLogin_3___&gt;<br/><br/>    @wraps(func)<br/>    def wrapper(self):<br/>&gt;       return func(self, *args, **kwargs)<br/><span class="error">E       TypeError: test_validLogin() missing 3 required positional arguments: &#x27;email&#x27;, &#x27;password&#x27;, and &#x27;search&#x27;</span><br/><br/>/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ddt.py:145: TypeError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_suite_demo.py::LoginTests::test_validLogin</td>
-          <td class="col-duration">10.92</td>
+          <td class="col-name">createAcount_tests.py::CreateAccountTests::test_CreateAccount</td>
+          <td class="col-duration">7.05</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">------------------------------ Captured log call -------------------------------<br/>[32mINFO    [0m Util:utils.py:87 Actual Text From Application Web UI --&gt; :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
-[32mINFO    [0m Util:utils.py:88 Expected Text From Application Web UI --&gt; :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
-[32mINFO    [0m Util:utils.py:90 ### VERIFICATION CONTAINS !!!
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: //span[text()=&#x27;Hello, Sign in&#x27;] locatorType: xpath
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:169 Element present with locator: (//i[starts-with(@class,&#x27;a-icon&#x27;)])[1] locatorType: xpath
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:122 Sent data on element with locator: ap_email locatorType: id
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: continue locatorType: id
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:122 Sent data on element with locator: ap_password locatorType: id
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: signInSubmit locatorType: id
-[32mINFO    [0m TestStatus:teststatus.py:30 ### VERIFICATION SUCCESSFUL :: + Title mismatch!
-[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
-[32mINFO    [0m LoginPage:selenium_driver.py:169 Element present with locator: twotabsearchtextbox locatorType: id
-[32mINFO    [0m TestStatus:teststatus.py:30 ### VERIFICATION SUCCESSFUL :: + Login was not successful
-[32mINFO    [0m TestStatus:teststatus.py:64 test_validLogin ### TEST SUCCESSFUL
-[32mINFO    [0m HomePage:selenium_driver.py:91 Element found
-[32mINFO    [0m HomePage:selenium_driver.py:206  Send data  on element twotabsearchtextboxlocator type: id</div></td></tr></tbody></table></body></html>
+            <div class="log">------------------------------ Captured log call -------------------------------<br/>[32mINFO    [0m LoginPage:selenium_driver.py:91 Element found
+[32mINFO    [0m LoginPage:selenium_driver.py:106 Clicked on element with locator: createAccountSubmit locatorType: id</div></td></tr></tbody></table></body></html>

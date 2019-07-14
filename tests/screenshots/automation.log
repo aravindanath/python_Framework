@@ -1,0 +1,771 @@
+06/20/2019 08:31:05 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:31:05 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:31:05 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/20/2019 08:31:07 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:07 AM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 08:31:08 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:08 AM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 08:31:08 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:08 AM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/20/2019 08:31:08 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:08 AM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/20/2019 08:31:12 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="ap_password"]
+
+06/20/2019 08:31:12 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_password locatorType: id
+06/20/2019 08:31:15 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="signInSubmit"]
+
+06/20/2019 08:31:15 AM - LoginPage - INFO: Cannot click on the element with locator: signInSubmit locatorType: id
+06/20/2019 08:31:15 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title mismatch!
+06/20/2019 08:31:15 AM - TestStatus - INFO: Screenshot save to directory: /Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/../screenshots/Title mismatch!.1560999675294.png
+06/20/2019 08:31:17 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 377, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+TypeError: getresponse() got an unexpected keyword argument 'buffering'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/request.py", line 72, in request
+    **urlopen_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/request.py", line 150, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/poolmanager.py", line 323, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+06/20/2019 08:31:17 AM - LoginPage - INFO: Element not present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 08:31:17 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login was not successful
+06/20/2019 08:31:17 AM - TestStatus - ERROR: ### Exception Occurred when taking screenshot
+06/20/2019 08:31:17 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+06/20/2019 08:31:31 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:31:31 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:31:31 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/20/2019 08:31:33 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:34 AM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 08:31:34 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:34 AM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 08:31:34 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:34 AM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/20/2019 08:31:34 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:35 AM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/20/2019 08:31:35 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:35 AM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+06/20/2019 08:31:36 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:38 AM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+06/20/2019 08:31:38 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/20/2019 08:31:38 AM - LoginPage - INFO: Element found
+06/20/2019 08:31:38 AM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 08:31:38 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/20/2019 08:31:38 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/20/2019 08:31:38 AM - HomePage - INFO: Element found
+06/20/2019 08:31:38 AM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+06/20/2019 08:52:28 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:52:28 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:52:28 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/20/2019 08:52:31 AM - LoginPage - INFO: Element found
+06/20/2019 08:52:34 AM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 08:52:34 AM - LoginPage - INFO: Element found
+06/20/2019 08:52:34 AM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 08:52:34 AM - LoginPage - INFO: Element found
+06/20/2019 08:52:34 AM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/20/2019 08:52:34 AM - LoginPage - INFO: Element found
+06/20/2019 08:52:36 AM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/20/2019 08:52:36 AM - LoginPage - INFO: Element found
+06/20/2019 08:52:36 AM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+06/20/2019 08:52:36 AM - LoginPage - INFO: Element found
+06/20/2019 08:52:40 AM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+06/20/2019 08:52:40 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/20/2019 08:52:40 AM - LoginPage - INFO: Element found
+06/20/2019 08:52:40 AM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 08:52:40 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/20/2019 08:52:40 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/20/2019 08:52:40 AM - HomePage - INFO: Element found
+06/20/2019 08:52:40 AM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+06/20/2019 08:55:03 AM - LoginPage - ERROR: Failed to get page title
+06/20/2019 08:55:05 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+
+06/20/2019 08:55:05 AM - LoginPage - INFO: Cannot click on the element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 08:55:05 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+
+06/20/2019 08:55:05 AM - LoginPage - INFO: Element not present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 08:55:05 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+
+06/20/2019 08:55:05 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_email locatorType: id
+06/20/2019 08:55:05 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+
+06/20/2019 08:55:05 AM - LoginPage - INFO: Cannot click on the element with locator: continue locatorType: id
+06/20/2019 08:55:21 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:55:21 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:55:21 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/20/2019 08:55:23 AM - LoginPage - INFO: Element found
+06/20/2019 08:55:24 AM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 08:55:24 AM - LoginPage - INFO: Element found
+06/20/2019 08:55:24 AM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 08:55:24 AM - LoginPage - INFO: Element found
+06/20/2019 08:55:24 AM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/20/2019 08:55:24 AM - LoginPage - INFO: Element found
+06/20/2019 08:55:26 AM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/20/2019 08:55:26 AM - LoginPage - INFO: Element found
+06/20/2019 08:55:26 AM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+06/20/2019 08:55:26 AM - LoginPage - INFO: Element found
+06/20/2019 08:55:31 AM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+06/20/2019 08:55:31 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/20/2019 08:55:31 AM - LoginPage - INFO: Element found
+06/20/2019 08:55:31 AM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 08:55:31 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/20/2019 08:55:31 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/20/2019 08:55:31 AM - HomePage - INFO: Element found
+06/20/2019 08:55:31 AM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+06/20/2019 08:58:49 AM - Util - INFO: Actual Text From Application Web UI --> :: www.amazon.in
+06/20/2019 08:58:49 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:58:49 AM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/20/2019 08:58:54 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Hello, Sign in']"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:58:54 AM - LoginPage - INFO: Cannot click on the element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 08:58:57 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[starts-with(@class,'a-icon')])[1]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:58:57 AM - LoginPage - INFO: Element not present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 08:59:00 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ap_email"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:59:00 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_email locatorType: id
+06/20/2019 08:59:03 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="continue"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:59:03 AM - LoginPage - INFO: Cannot click on the element with locator: continue locatorType: id
+06/20/2019 08:59:06 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ap_password"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:59:06 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_password locatorType: id
+06/20/2019 08:59:10 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="signInSubmit"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:59:10 AM - LoginPage - INFO: Cannot click on the element with locator: signInSubmit locatorType: id
+06/20/2019 08:59:10 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title mismatch!
+06/20/2019 08:59:10 AM - TestStatus - INFO: Screenshot save to directory: /Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/../screenshots/Title mismatch!.1561001350032.png
+06/20/2019 08:59:12 AM - LoginPage - INFO: Element found
+06/20/2019 08:59:12 AM - LoginPage - INFO: Element not present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 08:59:12 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login was not successful
+06/20/2019 08:59:12 AM - TestStatus - ERROR: ### Exception Occurred when taking screenshot
+06/20/2019 08:59:12 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+06/20/2019 08:59:37 AM - Util - INFO: Actual Text From Application Web UI --> :: www.amazon.in
+06/20/2019 08:59:37 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 08:59:37 AM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+06/20/2019 08:59:39 AM - LoginPage - INFO: Element found
+06/20/2019 08:59:39 AM - LoginPage - INFO: Cannot click on the element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 08:59:39 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:59:39 AM - LoginPage - INFO: Element not present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 08:59:39 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:59:39 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_email locatorType: id
+06/20/2019 08:59:39 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 08:59:39 AM - LoginPage - INFO: Cannot click on the element with locator: continue locatorType: id
+06/20/2019 09:00:18 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 09:00:18 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 09:00:18 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/20/2019 09:00:20 AM - LoginPage - INFO: Element found
+06/20/2019 09:00:22 AM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 09:00:22 AM - LoginPage - INFO: Element found
+06/20/2019 09:00:22 AM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 09:00:23 AM - LoginPage - INFO: Element found
+06/20/2019 09:00:23 AM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/20/2019 09:00:23 AM - LoginPage - INFO: Element found
+06/20/2019 09:00:24 AM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/20/2019 09:00:25 AM - LoginPage - INFO: Element found
+06/20/2019 09:00:25 AM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+06/20/2019 09:00:25 AM - LoginPage - INFO: Element found
+06/20/2019 09:00:31 AM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+06/20/2019 09:00:32 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/20/2019 09:00:33 AM - LoginPage - INFO: Element found
+06/20/2019 09:00:33 AM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 09:00:33 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/20/2019 09:00:33 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/20/2019 09:00:33 AM - HomePage - INFO: Element found
+06/20/2019 09:00:43 AM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+06/20/2019 09:01:20 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 09:01:20 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 09:01:20 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/20/2019 09:01:24 AM - LoginPage - INFO: Element found
+06/20/2019 09:01:25 AM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 09:01:28 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[starts-with(@class,'a-icon')])[1]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:01:28 AM - LoginPage - INFO: Element not present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 09:01:31 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ap_email"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:01:31 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_email locatorType: id
+06/20/2019 09:01:34 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="continue"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:01:34 AM - LoginPage - INFO: Cannot click on the element with locator: continue locatorType: id
+06/20/2019 09:01:37 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ap_password"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:01:37 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_password locatorType: id
+06/20/2019 09:01:40 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="signInSubmit"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:01:40 AM - LoginPage - INFO: Cannot click on the element with locator: signInSubmit locatorType: id
+06/20/2019 09:01:41 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title mismatch!
+06/20/2019 09:01:41 AM - TestStatus - INFO: Screenshot save to directory: /Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/../screenshots/Title mismatch!.1561001501037.png
+06/20/2019 09:01:44 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="twotabsearchtextbox"]"}
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:01:44 AM - LoginPage - INFO: Element not present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 09:01:44 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login was not successful
+06/20/2019 09:01:44 AM - TestStatus - ERROR: ### Exception Occurred when taking screenshot
+06/20/2019 09:01:44 AM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+06/20/2019 09:02:56 AM - LoginPage - ERROR: Failed to get page title
+06/20/2019 09:02:58 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:02:58 AM - LoginPage - INFO: Cannot click on the element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 09:02:58 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:02:58 AM - LoginPage - INFO: Element not present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 09:02:58 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:02:58 AM - LoginPage - INFO: Cannot send data on the element with locator: ap_email locatorType: id
+06/20/2019 09:02:58 AM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.100)
+
+06/20/2019 09:02:58 AM - LoginPage - INFO: Cannot click on the element with locator: continue locatorType: id
+06/20/2019 09:03:16 AM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 09:03:16 AM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/20/2019 09:03:16 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/20/2019 09:03:18 AM - LoginPage - INFO: Element found
+06/20/2019 09:03:22 AM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/20/2019 09:03:22 AM - LoginPage - INFO: Element found
+06/20/2019 09:03:22 AM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/20/2019 09:03:22 AM - LoginPage - INFO: Element found
+06/20/2019 09:03:22 AM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/20/2019 09:03:23 AM - LoginPage - INFO: Element found
+06/20/2019 09:03:24 AM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/20/2019 09:03:24 AM - LoginPage - INFO: Element found
+06/20/2019 09:03:25 AM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+06/20/2019 09:03:25 AM - LoginPage - INFO: Element found
+06/20/2019 09:03:32 AM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+06/20/2019 09:03:32 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/20/2019 09:03:32 AM - LoginPage - INFO: Element found
+06/20/2019 09:03:32 AM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+06/20/2019 09:03:32 AM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/20/2019 09:03:32 AM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/20/2019 09:03:32 AM - HomePage - INFO: Element found
+06/20/2019 09:03:35 AM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+06/21/2019 09:58:00 PM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/21/2019 09:58:00 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/21/2019 09:58:00 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/21/2019 09:58:02 PM - LoginPage - INFO: Element found
+06/21/2019 09:58:03 PM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/21/2019 09:58:03 PM - LoginPage - INFO: Element found
+06/21/2019 09:58:03 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/21/2019 09:58:03 PM - LoginPage - INFO: Element found
+06/21/2019 09:58:03 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/21/2019 09:58:03 PM - LoginPage - INFO: Element found
+06/21/2019 09:58:04 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/21/2019 09:58:05 PM - LoginPage - INFO: Element found
+06/21/2019 09:58:05 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+06/21/2019 09:58:05 PM - LoginPage - INFO: Element found
+06/21/2019 09:58:08 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+06/21/2019 09:58:08 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/21/2019 09:58:08 PM - LoginPage - INFO: Element found
+06/21/2019 09:58:08 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+06/21/2019 09:58:08 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/21/2019 09:58:08 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/21/2019 09:58:08 PM - HomePage - INFO: Element found
+06/21/2019 09:58:08 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+06/21/2019 10:00:26 PM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/21/2019 10:00:26 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+06/21/2019 10:00:26 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+06/21/2019 10:00:28 PM - LoginPage - INFO: Element found
+06/21/2019 10:00:28 PM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+06/21/2019 10:00:28 PM - LoginPage - INFO: Element found
+06/21/2019 10:00:28 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+06/21/2019 10:00:28 PM - LoginPage - INFO: Element found
+06/21/2019 10:00:29 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+06/21/2019 10:00:29 PM - LoginPage - INFO: Element found
+06/21/2019 10:00:30 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+06/21/2019 10:00:30 PM - LoginPage - INFO: Element found
+06/21/2019 10:00:30 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+06/21/2019 10:00:30 PM - LoginPage - INFO: Element found
+06/21/2019 10:00:32 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+06/21/2019 10:00:32 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+06/21/2019 10:00:33 PM - LoginPage - INFO: Element found
+06/21/2019 10:00:33 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+06/21/2019 10:00:33 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+06/21/2019 10:00:33 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+06/21/2019 10:00:33 PM - HomePage - INFO: Element found
+06/21/2019 10:00:33 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/13/2019 11:17:56 PM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/13/2019 11:17:56 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/13/2019 11:17:56 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+07/13/2019 11:17:58 PM - LoginPage - INFO: Element found
+07/13/2019 11:18:00 PM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+07/13/2019 11:18:00 PM - LoginPage - INFO: Element found
+07/13/2019 11:18:00 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+07/13/2019 11:18:00 PM - LoginPage - INFO: Element found
+07/13/2019 11:18:00 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+07/13/2019 11:18:00 PM - LoginPage - INFO: Element found
+07/13/2019 11:18:01 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+07/13/2019 11:18:02 PM - LoginPage - INFO: Element found
+07/13/2019 11:18:02 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+07/13/2019 11:18:02 PM - LoginPage - INFO: Element found
+07/13/2019 11:18:05 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+07/13/2019 11:18:05 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+07/13/2019 11:18:05 PM - LoginPage - INFO: Element found
+07/13/2019 11:18:05 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+07/13/2019 11:18:05 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+07/13/2019 11:18:05 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+07/13/2019 11:18:05 PM - HomePage - INFO: Element found
+07/13/2019 11:18:05 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/14/2019 04:30:24 PM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:30:24 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:30:24 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+07/14/2019 04:30:26 PM - LoginPage - INFO: Element found
+07/14/2019 04:30:28 PM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+07/14/2019 04:30:28 PM - LoginPage - INFO: Element found
+07/14/2019 04:30:28 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+07/14/2019 04:30:28 PM - LoginPage - INFO: Element found
+07/14/2019 04:30:28 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+07/14/2019 04:30:28 PM - LoginPage - INFO: Element found
+07/14/2019 04:30:29 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+07/14/2019 04:30:30 PM - LoginPage - INFO: Element found
+07/14/2019 04:30:30 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+07/14/2019 04:30:30 PM - LoginPage - INFO: Element found
+07/14/2019 04:30:32 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+07/14/2019 04:30:32 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+07/14/2019 04:30:32 PM - LoginPage - INFO: Element found
+07/14/2019 04:30:32 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+07/14/2019 04:30:32 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+07/14/2019 04:30:32 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+07/14/2019 04:30:32 PM - HomePage - INFO: Element found
+07/14/2019 04:30:33 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/14/2019 04:33:38 PM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:33:38 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:33:38 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+07/14/2019 04:33:40 PM - LoginPage - INFO: Element found
+07/14/2019 04:33:41 PM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+07/14/2019 04:33:41 PM - LoginPage - INFO: Element found
+07/14/2019 04:33:41 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+07/14/2019 04:33:41 PM - LoginPage - INFO: Element found
+07/14/2019 04:33:41 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+07/14/2019 04:33:41 PM - LoginPage - INFO: Element found
+07/14/2019 04:33:42 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+07/14/2019 04:33:43 PM - LoginPage - INFO: Element found
+07/14/2019 04:33:43 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+07/14/2019 04:33:43 PM - LoginPage - INFO: Element found
+07/14/2019 04:33:45 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+07/14/2019 04:33:45 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+07/14/2019 04:33:45 PM - LoginPage - INFO: Element found
+07/14/2019 04:33:45 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+07/14/2019 04:33:45 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+07/14/2019 04:33:45 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+07/14/2019 04:33:45 PM - HomePage - INFO: Element found
+07/14/2019 04:33:45 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/14/2019 04:36:29 PM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:36:29 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:36:29 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+07/14/2019 04:36:31 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:31 PM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+07/14/2019 04:36:32 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:32 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+07/14/2019 04:36:32 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:32 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+07/14/2019 04:36:32 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:33 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+07/14/2019 04:36:34 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:34 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+07/14/2019 04:36:34 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:38 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+07/14/2019 04:36:38 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+07/14/2019 04:36:38 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:38 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+07/14/2019 04:36:38 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+07/14/2019 04:36:38 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+07/14/2019 04:36:38 PM - HomePage - INFO: Element found
+07/14/2019 04:36:40 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/14/2019 04:36:45 PM - Util - INFO: Actual Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:36:45 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 04:36:45 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+07/14/2019 04:36:47 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:48 PM - LoginPage - INFO: Clicked on element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+07/14/2019 04:36:48 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:48 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+07/14/2019 04:36:48 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:48 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+07/14/2019 04:36:48 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:50 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+07/14/2019 04:36:50 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:50 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+07/14/2019 04:36:50 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:54 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+07/14/2019 04:36:54 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+07/14/2019 04:36:54 PM - LoginPage - INFO: Element found
+07/14/2019 04:36:54 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+07/14/2019 04:36:54 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+07/14/2019 04:36:54 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+07/14/2019 04:36:54 PM - HomePage - INFO: Element found
+07/14/2019 04:36:57 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/14/2019 05:02:04 PM - LoginPage - INFO: Element found
+07/14/2019 05:02:05 PM - LoginPage - INFO: Clicked on element with locator: createAccountSubmit locatorType: id
+07/14/2019 05:02:41 PM - LoginPage - INFO: Element found
+07/14/2019 05:02:42 PM - LoginPage - INFO: Clicked on element with locator: createAccountSubmit locatorType: id
+07/14/2019 05:03:55 PM - Util - INFO: Actual Text From Application Web UI --> :: Amazon Sign In
+07/14/2019 05:03:55 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 05:03:55 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+07/14/2019 05:04:00 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Hello, Sign in']"}
+  (Session info: chrome=75.0.3770.100)
+
+07/14/2019 05:04:00 PM - LoginPage - INFO: Cannot click on the element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+07/14/2019 05:04:00 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:00 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+07/14/2019 05:04:00 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:01 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+07/14/2019 05:04:01 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:02 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+07/14/2019 05:04:03 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:03 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+07/14/2019 05:04:03 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:07 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+07/14/2019 05:04:07 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+07/14/2019 05:04:08 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:08 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+07/14/2019 05:04:08 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+07/14/2019 05:04:08 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+07/14/2019 05:04:08 PM - HomePage - INFO: Element found
+07/14/2019 05:04:10 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/14/2019 05:04:14 PM - Util - INFO: Actual Text From Application Web UI --> :: Amazon Sign In
+07/14/2019 05:04:14 PM - Util - INFO: Expected Text From Application Web UI --> :: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+07/14/2019 05:04:14 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+07/14/2019 05:04:19 PM - LoginPage - ERROR: Element not found
+Traceback (most recent call last):
+  File "/Users/aravindanathdm/Documents/Simple_Pom_py_fw/base/selenium_driver.py", line 90, in getElement
+    element = self.driver.find_element(byType,locator)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Hello, Sign in']"}
+  (Session info: chrome=75.0.3770.100)
+
+07/14/2019 05:04:19 PM - LoginPage - INFO: Cannot click on the element with locator: //span[text()='Hello, Sign in'] locatorType: xpath
+07/14/2019 05:04:19 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:19 PM - LoginPage - INFO: Element present with locator: (//i[starts-with(@class,'a-icon')])[1] locatorType: xpath
+07/14/2019 05:04:19 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:19 PM - LoginPage - INFO: Sent data on element with locator: ap_email locatorType: id
+07/14/2019 05:04:19 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:21 PM - LoginPage - INFO: Clicked on element with locator: continue locatorType: id
+07/14/2019 05:04:21 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:21 PM - LoginPage - INFO: Sent data on element with locator: ap_password locatorType: id
+07/14/2019 05:04:21 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:25 PM - LoginPage - INFO: Clicked on element with locator: signInSubmit locatorType: id
+07/14/2019 05:04:25 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title mismatch!
+07/14/2019 05:04:26 PM - LoginPage - INFO: Element found
+07/14/2019 05:04:26 PM - LoginPage - INFO: Element present with locator: twotabsearchtextbox locatorType: id
+07/14/2019 05:04:26 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+07/14/2019 05:04:26 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+07/14/2019 05:04:26 PM - HomePage - INFO: Element found
+07/14/2019 05:04:29 PM - HomePage - INFO:  Send data  on element twotabsearchtextboxlocator type: id
+07/14/2019 05:06:08 PM - LoginPage - INFO: Element found
+07/14/2019 05:06:09 PM - LoginPage - INFO: Clicked on element with locator: createAccountSubmit locatorType: id

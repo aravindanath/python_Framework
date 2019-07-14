@@ -20,10 +20,12 @@ class LoginPage(BasePage):
     _pwd_field_id = "ap_password"
     _continue_button_id = "continue"
     _login_button_id ="signInSubmit"
+    _create_Account_Button_id ="createAccountSubmit"
 
 
 
     # Actions
+
 
     def assertLoginPgTitle(self):
         self.assertTitle("Amazon",self._title_xpath,locatorType="xpath")
@@ -53,6 +55,8 @@ class LoginPage(BasePage):
     def enterPassword(self, password):
         self.sendKeys(password, self._pwd_field_id)
 
+    def createNewAccount(self):
+        self.elementClick(self._create_Account_Button_id)
 
 
 
@@ -105,3 +109,6 @@ class LoginPage(BasePage):
         result = self.isElementPresent("//*[@id='auth-email-missing-alert']/div/div]",
                                        locatorType="xpath")
         return result
+
+    def createNewAc(self):
+        self.createNewAccount()

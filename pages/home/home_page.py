@@ -24,7 +24,7 @@ class HomePage(BasePage):
         self.sendKeysWithEnter(data, self._search_id, locatorType="id")
 
 
-    def searchProduct(self,data=''):
+    def searchProduct(self,data=""):
         self.search(data)
 
 

@@ -1,10 +1,10 @@
-from selenium import webdriver
+
 from pages.login.login_page import LoginPage
 from pages.home.home_page import HomePage
 from utilities.teststatus import TestStatus
 import unittest
 import pytest
-from ddt import ddt, data, unpack
+
 
 @pytest.mark.usefixtures("oneTimeSetUp")
 class LoginTests(unittest.TestCase):
