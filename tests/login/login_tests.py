@@ -2,6 +2,8 @@
 from pages.login.login_page import LoginPage
 from pages.home.home_page import HomePage
 from utilities.teststatus import TestStatus
+from pages.address.address_page import AddressPage
+
 import unittest
 import pytest
 
@@ -14,6 +16,7 @@ class LoginTests(unittest.TestCase):
         self.lp = LoginPage(self.driver)
         self.ts = TestStatus(self.driver)
         self.hp = HomePage(self.driver)
+        # self.ap = AddressPage(self.driver)
 
 
 
